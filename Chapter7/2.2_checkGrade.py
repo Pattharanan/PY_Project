@@ -1,4 +1,4 @@
-#function
+# function
 def check_grade(score):
     grade = ""
     if score >= 80:
@@ -20,7 +20,7 @@ def check_grade(score):
     return grade
 
 
-#mainprogram
+# main Program
 print("Program calculate grade.")
 done = True
 while done:

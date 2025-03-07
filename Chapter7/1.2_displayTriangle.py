@@ -1,4 +1,4 @@
-#function
+# function
 def display_triangle(num, ch):  
     for n in range(1, num+1):  
         message = ""  
@@ -7,7 +7,7 @@ def display_triangle(num, ch):
         print(message)
 
 
-#mainprogram
+# main Program
 print("Program display triangle.")
 num = int(input("Enter number line : "))  
 ch = input("Enter character : ")  
