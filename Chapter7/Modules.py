@@ -1,3 +1,4 @@
+# ชื่อไฟล์_Modules.py
 def sum_number(start=1, end=10):
     sum = 0  # กำหนดค่าเริ่มต้นของผลรวมเป็น 0
     for n in range(start, end+1):  # วนลูปตั้งแต่ start ถึง end
