@@ -13,4 +13,4 @@ print(A.count(5))  # ผลลัพธ์: 3
 print(A.count(0))  # ผลลัพธ์: 0
 
 # หาตำแหน่งของค่า 0 ใน A (แต่ไม่มีค่า 0 ใน A)
-# print(A.index(0))  # ❌ จะเกิด ValueError
+print(A.index(0))  # ❌ จะเกิด ValueError
