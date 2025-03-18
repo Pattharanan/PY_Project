@@ -14,5 +14,5 @@ for r in range(student):
         scores[r].append(randint(0, 100)) # random value
 
 # display
-for score in scores:
-    print(score)
+for student_scores in scores:
+    print(student_scores)
