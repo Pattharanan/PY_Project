@@ -1,12 +1,7 @@
-def main():
-    print('Test open file for read.')
-    fin = open('mydata.txt', encoding='utf-8')
-    print('Open file mydata.txt')
-    print('Use read to read data from file.')
-    data = fin.read()
-    print(data)
-    fin.close()
-    print('Now closed file.')
+fin = open('mydata.txt', 'r')  
+content1 = fin.read(10)  # อ่านขึ้นมา 10 ตัวอักษร  
+content = fin.read()  # อ่านจนหมดไฟล์  
+fin.close()  
 
-if __name__ == "__main__":
-    main()
+print(content1)  
+print(content)

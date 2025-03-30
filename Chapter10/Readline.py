@@ -1,25 +1,15 @@
-def read_data(filename):
-    datas = []
-    fin = open(filename, encoding='utf-8')
+# เปิดไฟล์ เพื่ออ่านข้อมูล
+fin = open('myscore.txt', encoding='utf-8')
+
+# อ่านข้อมูลทีละบรรทัด
+datas = []
+data = fin.readline()
+while data != "":
+    datas.append(data)
     data = fin.readline()
-    while data != "":
-        datas.append(data)
-        data = fin.readline()
-    fin.close()
-    return datas
 
-def main():
-    print('Test open file for read.')
-    fin = open('mydata.txt', encoding='utf-8')
-    print('Open file mydata.txt')
-    print('Use readline to read data from file.')
-    data1 = fin.readline(5)
-    data2 = fin.readline()
-    print(data1 + '+' + data2)
-    fin.close()
-    print('Now closed file.')
-    scores = read_data('myscore.txt')
-    print(scores)
+# ปิดไฟล์หลังจากอ่านเสร็จ
+fin.close()
 
-if __name__ == "__main__":
-    main()
+# แสดงผลลัพธ์ที่อ่านได้
+print(datas)

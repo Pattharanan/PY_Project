@@ -1,5 +1,5 @@
 Hello, text file
 Salary : 1200.5
-SomchaiCheingpongpan
+PythonProgram
 PythonFile
 namesurname
